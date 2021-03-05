@@ -15,6 +15,14 @@ const things = [
 			"Backpack",
 			"Travel"
 		],
-		"url": "https://herschel.com/shop/backpacks/mammoth-backpack-medium?v=10711-02567-OS",
+		"url": "https://herschel.com/shop/backpacks/mammoth-backpack-medium?v=10711-02567-OS"
+	},
+	{
+		"title": "Coravin Pivot",
+		"price": 99,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.coravin.com/products/pivot"
 	}
 ]
