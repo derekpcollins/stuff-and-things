@@ -1,2 +1,3 @@
-# stuff-and-things
-Stuff &amp; Things
+# Stuff &amp; Things
+
+A collection of stuff and things that I like/want/etc.
