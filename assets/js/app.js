@@ -54,7 +54,7 @@ for(const thing of things) {
 
 // Lazy load images
 // Source: https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
 	  let lazyloadImages;
 	  
 	  lazyloadImages = document.querySelectorAll('.lazy');
@@ -72,4 +72,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	  lazyloadImages.forEach(function(image) {
 		imageObserver.observe(image);
 	  });
-})
+});*/

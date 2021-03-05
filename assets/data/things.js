@@ -27,7 +27,7 @@ const things = [
 	},
 	{
 		"title": "Atoms Model 000",
-		"porice": 129,
+		"price": 129,
 		"tags": [
 			"Shoes",
 			"Clothing"
