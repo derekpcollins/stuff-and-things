@@ -24,5 +24,14 @@ const things = [
 			"Kitchen"
 		],
 		"url": "https://www.coravin.com/products/pivot"
+	},
+	{
+		"title": "Atoms Model 000",
+		"porice": 129,
+		"tags": [
+			"Shoes",
+			"Clothing"
+		],
+		"url": "https://www.atoms.com/products/atoms-black"
 	}
 ]
