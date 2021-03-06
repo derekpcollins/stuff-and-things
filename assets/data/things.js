@@ -1,5 +1,40 @@
 const things = [
 	{
+		"title": "KitchenAid Artisan Stand Mixer",
+		"price": 399,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.kitchenaid.com/countertop-appliances/color-of-the-year/stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.ksm150psbm.html",
+		"special": true
+	},
+	{
+		"title": "Acacia Pearl Model S Scale",
+		"price": 195,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://acaia.co/products/pearl-model-s",
+		"special": true
+	},
+	{
+		"title": "Hario V60 Drip Scale",
+		"price": 60,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.hario-usa.com/products/v60-drip-scale"
+	},
+	{
+		"title": "Fellow Ode Coffee Grinder",
+		"price": 299,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://fellowproducts.com/products/ode-brew-grinder",
+		"special": true
+	},
+	{
 		"title": "Kiehls Midnight Recovery Oil",
 		"price": 52,
 		"tags": [
@@ -16,7 +51,8 @@ const things = [
 		"tags": [
 			
 		],
-		"url": "https://www.bellhelmets.com/motorcycle/p/bullitt-carbon-cruiser-motorcycle-helmet/250030000100000003.html"
+		"url": "https://www.bellhelmets.com/motorcycle/p/bullitt-carbon-cruiser-motorcycle-helmet/250030000100000003.html",
+		"special": true
 	},
 	{
 		"title": "Mazma Crater Lake Mug",
@@ -36,12 +72,22 @@ const things = [
 		"favorite": true
 	},
 	{
+		"title": "Levis Premium 511 Jeans",
+		"price": 90,
+		"tags": [
+			"Clothing"
+		],
+		"url": "https://uncrate.com/levis-premium-511-black-rinse-jeans/",
+		"favorite": true
+	},
+	{
 		"title": "Balmuda The Toaster",
 		"price": 329,
 		"tags": [
 			"Kitchen"
 		],
-		"url": "https://us.balmuda.com/products/balmuda-the-toaster"
+		"url": "https://us.balmuda.com/products/balmuda-the-toaster",
+		"special": true
 	},
 	{
 		"title": "Nike ZoomX VaporFly NEXT 2",
@@ -51,15 +97,6 @@ const things = [
 			"Clothing"
 		],
 		"url": "https://www.werd.com/57555/nike-trots-out-zoomx-vaporfly-next-2/"
-	},
-	{
-		"title": "Herschel Mammoth Backpack",
-		"price": 120,
-		"tags": [
-			"Backpack",
-			"Travel"
-		],
-		"url": "https://herschel.com/shop/backpacks/mammoth-backpack-medium?v=10711-02567-OS"
 	},
 	{
 		"title": "Coravin Pivot",

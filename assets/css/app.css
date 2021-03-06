@@ -118,3 +118,15 @@ body::-webkit-scrollbar {
 	height: 24px;
 	width: 24px;
 }
+
+.card .special {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.card .special svg {
+	stroke: #DEBB00;
+	height: 24px;
+	width: 24px;
+}
