@@ -48,10 +48,12 @@ body::-webkit-scrollbar {
 .card {
 	background-color: var(--card-background-color);
 	box-sizing: border-box;
+	display: block;
 	margin-bottom: 2px;
 	width: 100%;
 	position: relative;
 	display; block;
+	overflow: hidden;
 }
 
 .card img {
@@ -85,8 +87,7 @@ body::-webkit-scrollbar {
 	margin: 0;
 }
 
-.card a,
-.car span {
+.card .price {
 	color: var(--text-color);
 	font-size: 14px;
 	font-weight: 300;
@@ -94,12 +95,26 @@ body::-webkit-scrollbar {
 	text-decoration: none;
 }
 
-.card .buy-link {
-	display: inline-block;
-	margin: 0 16px;
-	padding: 6px 16px;
-	
-	border: 1px solid var(--text-color);
-	border-radius: 20px;
-	
+.card .favorite {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.card .favorite svg {
+	stroke: #AC0000;
+	height: 24px;
+	width: 24px;
+}
+
+.card .recurring {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.card .recurring svg {
+	stroke: #0045AC;
+	height: 24px;
+	width: 24px;
 }
