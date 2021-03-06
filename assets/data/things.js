@@ -1,5 +1,13 @@
 const things = [
 	{
+		"title": "Balmuda The Toaster",
+		"price": 329,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://us.balmuda.com/products/balmuda-the-toaster"
+	},
+	{
 		"title": "Nike ZoomX VaporFly NEXT 2",
 		"price": "TBA",
 		"tags": [

@@ -1,7 +1,9 @@
 const container = document.getElementById('things-container');
 
 const createCard = (data) => {
-	let card = document.createElement('div');
+	
+	let card = document.createElement('a');
+	card.href = data.url;
 	card.classList.add('card');
 	
 	let imageName = (data.title).split(' ').join('-');
@@ -17,27 +19,13 @@ const createCard = (data) => {
 	title.innerText = data.title;
 	cardHeader.appendChild(title);
 	
-	if(data.url) {
-		let link = document.createElement('a');
-		link.href = data.url;
-		
-		if(Number.isInteger(data.price)) {
-			link.innerText = '$' + data.price;
-		} else {
-			link.innerText = data.price;
-		}
-		
-		cardHeader.appendChild(link);
+	let price = document.createElement('span');
+	if(Number.isInteger(data.price)) {
+		price.innerText = '$' + data.price;
 	} else {
-		let price = document.createElement('span');
-		if(Number.isInteger(data.price)) {
-			price.innerText = '$' + data.price;
-		} else {
-			price.innerText = data.price;
-		}
-		
-		cardHeader.appendChild(price);
+		price.innerText = data.price;
 	}
+	cardHeader.appendChild(price);
 	
 	return card;
 }

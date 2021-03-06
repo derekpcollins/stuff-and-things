@@ -1,14 +1,17 @@
 :root {
 	color-scheme: light dark;
-	--background-color: #fafafa;
-	--text-color: rgba(0,0,0,.65);
+	--background-color: #eee;
+	--header-text-color: #222;
+	//--text-color: rgba(0,0,0,.65);
+	--text-color: #222;
 	--card-background-color: transparent;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background-color: #222;
-		--text-color: rgba(255,255,255,.65);
+		--background-color: #111;
+		--header-text-color: #fafafa;
+		//--text-color: rgba(255,255,255,.65);
 		--card-background-color: transparent;
 	}
 }
@@ -20,6 +23,7 @@ body {
 	font-family: 'Inter', sans-serif;
 	margin: 0;
 	user-select: none;
+	padding-bottom: 48px;
 }
 
 body::-webkit-scrollbar { 
@@ -28,11 +32,12 @@ body::-webkit-scrollbar {
 
 /* SITE HEADER */
 #site-header {
-	padding: 80px 16px 32px 16px;
+	padding: 72px 16px 32px 16px;
 	text-align: center;
 }
 
 #site-header h1 {
+	color: var(--header-text-color);
 	font-family: 'Libre Barcode 39 Text', cursive;
 	font-size: 48px;
 	margin: 0;
@@ -43,8 +48,10 @@ body::-webkit-scrollbar {
 .card {
 	background-color: var(--card-background-color);
 	box-sizing: border-box;
-	margin-bottom: 12px;
+	margin-bottom: 2px;
 	width: 100%;
+	position: relative;
+	display; block;
 }
 
 .card img {
@@ -59,9 +66,15 @@ body::-webkit-scrollbar {
 }
 
 .card header {
-	padding: 8px 16px 16px;
+	padding: 8px;
 	display: flex;
 	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 1;
 }
 
 .card h1 {
