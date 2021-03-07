@@ -1,5 +1,29 @@
 const things = [
 	{
+		"title": "Omega Seamaster Diver 300M 007 Edition",
+		"price": 6500,
+		"tags": [
+			"Watch",
+			"Clothing",
+			"Accessories"
+		],
+		"special": true,
+		"url": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001004",
+		"description": "007 has worn a Seamaster since 1995. Limited to just 7,007 pieces, it is crafted with plenty of secret surprises."
+	},
+	{
+		"title": "Omega Seamasater Diver 300M",
+		"price": 8100,
+		"tags": [
+			"Watch",
+			"Clothing",
+			"Accessories"
+		],
+		"special": true,
+		"url": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21092422001001",
+		"description": "Identical to 007's watch in No Time To Die this 42mm Seamaster, in strong yet lightweight Grade 2 Titanium, sports a brown tropical aluminium bezel ring and dial."
+	},
+	{
 		"title": "KitchenAid Artisan Stand Mixer",
 		"price": 399,
 		"tags": [
@@ -114,5 +138,47 @@ const things = [
 			"Clothing"
 		],
 		"url": "https://www.atoms.com/products/atoms-black"
+	},
+	{
+		"title": "Tom Ford Marko Aviator Sunglasses",
+		"price": 405,
+		"tags": [
+			"Sunglasses",
+			"Clothing",
+			"Accessories"
+		],
+		"url": "https://www.tomford.com/on/demandware.store/Sites-tomford-Site/default/Product-Variation?pid=FT0144&dwvar_FT0144_color=18V&dwvar_FT0144_size=OS",
+		"description": "The Tom Ford Marko FT0144 (sometimes named TF144) sunglasses are worn by James Bond (Daniel Craig) in the movie SkyFall (2012)."
+	},
+	{
+		"title": "Tom Ford Snowdon Sunglasses",
+		"price": 430,
+		"tags": [
+			"Sunglasses",
+			"Clothing",
+			"Accessories"
+		],
+		"url": "https://www.tomford.com/snowdon-sunglasses/FT0237.html",
+		"description": "In SPECTRE Bond wears two pair of Tom Ford sunglasses, the Henry Vintage Wayfarer and the Snowdon."
+	},
+	{
+		"title": "Vuarnet Legned 06 Sunglasses",
+		"price": 240,
+		"tags": [
+			"Sunglasses",
+			"Clothing",
+			"Accessories"
+		],
+		"url": "https://us.vuarnet.com/products/legend-06",
+		"description": "Once again, Daniel Craig has chosen a Vuarnet model for the next opus of James Bond: No Time to Die. This time, our favorite super spy has hand-selected the iconic Legend 06, already worn by Alain Delon in the early 70s."
+	},
+	{
+		"title": "Walther PPK",
+		"price": 800,
+		"tags": [
+			"Accessories"
+		],
+		"url": "https://waltherarms.com/ppk-2/",
+		"description": ".380 ACP"
 	}
 ]
