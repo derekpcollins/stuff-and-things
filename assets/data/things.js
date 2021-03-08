@@ -1,5 +1,13 @@
 const things = [
 	{
+		"title": "Stagg Double Wall Carafe",
+		"price": 39,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://fellowproducts.com/products/stagg-double-wall-carafe"
+	},
+	{
 		"title": "KitchenAid Artisan Stand Mixer",
 		"price": 399,
 		"tags": [
