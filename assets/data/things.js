@@ -1,29 +1,5 @@
 const things = [
 	{
-		"title": "Omega Seamaster Diver 300M 007 Edition",
-		"price": 6500,
-		"tags": [
-			"Watch",
-			"Clothing",
-			"Accessories"
-		],
-		"special": true,
-		"url": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001004",
-		"description": "007 has worn a Seamaster since 1995. Limited to just 7,007 pieces, it is crafted with plenty of secret surprises."
-	},
-	{
-		"title": "Omega Seamasater Diver 300M",
-		"price": 8100,
-		"tags": [
-			"Watch",
-			"Clothing",
-			"Accessories"
-		],
-		"special": true,
-		"url": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21092422001001",
-		"description": "Identical to 007's watch in No Time To Die this 42mm Seamaster, in strong yet lightweight Grade 2 Titanium, sports a brown tropical aluminium bezel ring and dial."
-	},
-	{
 		"title": "KitchenAid Artisan Stand Mixer",
 		"price": 399,
 		"tags": [
@@ -114,6 +90,30 @@ const things = [
 		"special": true
 	},
 	{
+		"title": "The Essential Cocktail Book",
+		"price": 80,
+		"tags": [
+			"Books"
+		],
+		"url": "https://uncrate.com/the-essential-cocktail-book/"
+	},
+	{
+		"title": "Shaken",
+		"price": 25,
+		"tags": [
+			"Books"
+		],
+		"url": "https://uncrate.com/shaken-drinking-with-james-bond-ian-fleming/"
+	},
+	{
+		"title": "Viva Mezcal",
+		"price": 80,
+		"tags": [
+			"Books"
+		],
+		"url": "https://uncrate.com/viva-mezcal/"
+	},
+	{
 		"title": "Nike ZoomX VaporFly NEXT 2",
 		"price": "TBA",
 		"tags": [
@@ -180,5 +180,29 @@ const things = [
 		],
 		"url": "https://waltherarms.com/ppk-2/",
 		"description": ".380 ACP"
+	},
+	{
+		"title": "Omega Seamaster Diver 300M 007 Edition",
+		"price": 6500,
+		"tags": [
+			"Watch",
+			"Clothing",
+			"Accessories"
+		],
+		"special": true,
+		"url": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001004",
+		"description": "007 has worn a Seamaster since 1995. Limited to just 7,007 pieces, it is crafted with plenty of secret surprises."
+	},
+	{
+		"title": "Omega Seamasater Diver 300M",
+		"price": 8100,
+		"tags": [
+			"Watch",
+			"Clothing",
+			"Accessories"
+		],
+		"special": true,
+		"url": "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21092422001001",
+		"description": "Identical to 007's watch in No Time To Die this 42mm Seamaster, in strong yet lightweight Grade 2 Titanium, sports a brown tropical aluminium bezel ring and dial."
 	}
 ]
