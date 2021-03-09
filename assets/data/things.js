@@ -101,6 +101,16 @@ const things = [
 		"url": "https://www.atoms.com/products/atoms-black"
 	},
 	{
+		"title": "Mack Weldon AIRKNITx Boxer Brief",
+		"price": 28,
+		"tags": [
+			"Clothing"
+		],
+		"url": "https://mackweldon.com/collections/boxer-briefs/products/airknitx-boxer-brief",
+		"favorite": true,
+		"purchased": true
+	},
+	{
 		"title": "Sondors Metacycle",
 		"price": 5000,
 		"tags": [
