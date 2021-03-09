@@ -130,3 +130,15 @@ body::-webkit-scrollbar {
 	height: 24px;
 	width: 24px;
 }
+
+.card .purchased {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.card .purchased svg {
+	stroke: green;
+	height: 24px;
+	width: 24px;
+}

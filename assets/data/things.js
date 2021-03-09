@@ -63,21 +63,14 @@ const things = [
 		"special": true
 	},
 	{
-		"title": "Mazma Crater Lake Mug",
-		"price": 32,
-		"tags": [
-			"Kitchen"
-		],
-		"url": "https://www.tannergoods.com/collections/tableware/products/crater-lake-mug-2"
-	},
-	{
 		"title": "JCrew T-shirt",
 		"price": 30,
 		"tags": [
 			"Clothing"
 		],
 		"url": "https://www.jcrew.com/p/mens_category/tshirts/slubcotton/garmentdyed-slub-cotton-nopocket-tshirt/AU015?color_name=black",
-		"favorite": true
+		"favorite": true,
+		"purchased": true
 	},
 	{
 		"title": "Levis Premium 511 Jeans",
@@ -86,7 +79,44 @@ const things = [
 			"Clothing"
 		],
 		"url": "https://uncrate.com/levis-premium-511-black-rinse-jeans/",
-		"favorite": true
+		"favorite": true,
+		"purchased": true
+	},
+	{
+		"title": "Nike Blazer Low",
+		"price": 90,
+		"tags": [
+			"Shoes",
+			"Clothing"
+		],
+		"url": "https://www.nike.com/t/blazer-low-leather-mens-shoe-4w5Mgj"
+	},
+	{
+		"title": "Atoms Model 000",
+		"price": 129,
+		"tags": [
+			"Shoes",
+			"Clothing"
+		],
+		"url": "https://www.atoms.com/products/atoms-black"
+	},
+	{
+		"title": "Sondors Metacycle",
+		"price": 5000,
+		"tags": [
+			"Transportation"
+		],
+		"url": "https://sondorsx.com/pages/metacycle",
+		"favorite": true,
+		"purchased": true
+	},
+	{
+		"title": "Mazma Crater Lake Mug",
+		"price": 32,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.tannergoods.com/collections/tableware/products/crater-lake-mug-2"
 	},
 	{
 		"title": "Balmuda The Toaster",
@@ -137,15 +167,6 @@ const things = [
 			"Kitchen"
 		],
 		"url": "https://www.coravin.com/products/pivot"
-	},
-	{
-		"title": "Atoms Model 000",
-		"price": 129,
-		"tags": [
-			"Shoes",
-			"Clothing"
-		],
-		"url": "https://www.atoms.com/products/atoms-black"
 	},
 	{
 		"title": "Tom Ford Marko Aviator Sunglasses",
