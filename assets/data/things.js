@@ -83,6 +83,16 @@ const things = [
 		"purchased": true
 	},
 	{
+		"title": "7 For All Mankind Slimmy Jeans",
+		"price": 178,
+		"tags": [
+			"Clothing"
+		],
+		"url": "https://www.7forallmankind.com/slimmy-in-hillside.html",
+		"favorite": true,
+		"purchased": true
+	},
+	{
 		"title": "Mack Weldon AIRKNITx Boxer Brief",
 		"price": 28,
 		"tags": [
