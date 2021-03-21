@@ -1,5 +1,16 @@
 const things = [
 	{
+		"title": "Stadler Form Otto Fan",
+		"price": 200,
+		"tags": [
+			"Household",
+			"Furniture",
+			"Appliance"
+		],
+		"url": "https://www.stadlerform.com/en-ch/products/fan/otto/information/",
+		"notes": "In African Sapele Wood"
+	},
+	{
 		"title": "Stagg Double Wall Carafe",
 		"price": 39,
 		"tags": [
@@ -14,7 +25,8 @@ const things = [
 			"Kitchen"
 		],
 		"url": "https://www.kitchenaid.com/countertop-appliances/color-of-the-year/stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.ksm150psbm.html",
-		"special": true
+		"special": true,
+		"purchased": true
 	},
 	{
 		"title": "Acacia Pearl Model S Scale",
@@ -70,7 +82,8 @@ const things = [
 		],
 		"url": "https://www.jcrew.com/p/mens_category/tshirts/slubcotton/garmentdyed-slub-cotton-nopocket-tshirt/AU015?color_name=black",
 		"favorite": true,
-		"purchased": true
+		"purchased": true,
+		"numOwned": 6
 	},
 	{
 		"title": "Levis Premium 511 Jeans",
@@ -80,7 +93,8 @@ const things = [
 		],
 		"url": "https://uncrate.com/levis-premium-511-black-rinse-jeans/",
 		"favorite": true,
-		"purchased": true
+		"purchased": true,
+		"numOwned": 2
 	},
 	{
 		"title": "7 For All Mankind Slimmy Jeans",
@@ -90,7 +104,8 @@ const things = [
 		],
 		"url": "https://www.7forallmankind.com/slimmy-in-hillside.html",
 		"favorite": true,
-		"purchased": true
+		"purchased": true,
+		"numOwned": 3
 	},
 	{
 		"title": "Mack Weldon AIRKNITx Boxer Brief",
@@ -100,7 +115,8 @@ const things = [
 		],
 		"url": "https://mackweldon.com/collections/boxer-briefs/products/airknitx-boxer-brief",
 		"favorite": true,
-		"purchased": true
+		"purchased": true,
+		"numOwned": 2
 	},
 	{
 		"title": "Nike Blazer Low",
@@ -110,7 +126,8 @@ const things = [
 			"Clothing"
 		],
 		"url": "https://www.nike.com/t/blazer-low-leather-mens-shoe-4w5Mgj",
-		"purchased": true
+		"purchased": true,
+		"numOwned": 2
 	},
 	{
 		"title": "Sondors Metacycle",
