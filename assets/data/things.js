@@ -55,6 +55,22 @@ const things = [
 		"special": true
 	},
 	{
+		"title": "Octopus Chopstick Rests",
+		"price": 46,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.artifaqt.com/metal/octopus-chopstick-rests"
+	},
+	{
+		"title": "Sea Urchin Bowl",
+		"price": 125,
+		"tags": [
+			"Kitchen"
+		],
+		"url": "https://www.artifaqt.com/metal/sea-urchin-bowl"
+	},
+	{
 		"title": "Kiehls Midnight Recovery Oil",
 		"price": 52,
 		"tags": [
