@@ -1,5 +1,25 @@
 const things = [
 	{
+		"title": "Lego NASA Space Shuttle Discovery",
+		"price": 200,
+		"tags": [
+			"Collectibles",
+			"Toys"
+		],
+		"url": "https://www.lego.com/en-us/product/nasa-space-shuttle-discovery-10283",
+		"special": true
+	},
+	{
+		"title": "Tesla 20\" Induction Wheel",
+		"price": 4500,
+		"tags": [
+			"Vehicle"
+		],
+		"url": "https://shop.tesla.com/product/model-y-20_-induction-wheel-and-winter-tire-package",
+		"special": true,
+		"notes": "Waiting on the summer tire package"
+	},
+	{
 		"title": "Stadler Form Otto Fan",
 		"price": 200,
 		"tags": [
