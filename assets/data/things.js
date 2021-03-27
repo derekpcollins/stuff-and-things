@@ -1,5 +1,14 @@
 const things = [
 	{
+		"title": "Matador Freerain 24 Backpack",
+		"price": 65,
+		"tags": [
+			"Travel",
+			"Accessories"
+		],
+		"url": "https://matadorup.com/collections/matador-products/products/freerain24-2-0?variant=18267414364273"
+	},
+	{
 		"title": "Matador FlatPak Toiletry Bottle",
 		"price": 35,
 		"tags": [
