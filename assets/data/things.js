@@ -1,5 +1,15 @@
 const things = [
 	{
+		"title": "Lululemon Take Form Yoga Mat",
+		"price": 118,
+		"tags": [
+			"Fitness",
+			"Accessories",
+			"Equipment"
+		],
+		"url": "https://shop.lululemon.com/p/yoga-mats/Take-Form-Yoga-Mat-5mm/_/prod10370187?color=47749&sz=ONESIZE"
+	},
+	{
 		"title": "Matador Freerain 24 Backpack",
 		"price": 65,
 		"tags": [
