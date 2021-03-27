@@ -10,6 +10,7 @@ const createCard = (data) => {
 	let imageName = (data.title).split(' ').join('-');
 	let image = document.createElement('img');
 	//image.classList.add('lazy');
+	image.setAttribute('loading', 'lazy');
 	image.src = 'assets/img/' + imageName + '.jpg';
 	card.appendChild(image);
 	
