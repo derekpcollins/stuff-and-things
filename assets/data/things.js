@@ -38,6 +38,16 @@ const things = [
 		"special": true
 	},
 	{
+		"title": "TSV 19\" Tesla Wheel",
+		"price": 1960,
+		"tags": [
+			"Vehicle"
+		],
+		"url": "https://tsportline.com/collections/tesla-model-y-19-inch-aftermarket-tesla-wheels/products/tsv-tesla-model-y-19-inch-wheel-set-of-4?variant=32501570699324",
+		"special": true,
+		"notes": "Satin Black"
+	},
+	{
 		"title": "Tesla 20\" Induction Wheel",
 		"price": 4500,
 		"tags": [
