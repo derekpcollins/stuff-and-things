@@ -1,15 +1,5 @@
 const things = [
 	{
-		"title": "Lululemon Take Form Yoga Mat",
-		"price": 118,
-		"tags": [
-			"Fitness",
-			"Accessories",
-			"Equipment"
-		],
-		"url": "https://shop.lululemon.com/p/yoga-mats/Take-Form-Yoga-Mat-5mm/_/prod10370187?color=47749&sz=ONESIZE"
-	},
-	{
 		"title": "Matador Freerain 24 Backpack",
 		"price": 65,
 		"tags": [
@@ -94,14 +84,6 @@ const things = [
 		],
 		"url": "https://acaia.co/products/pearl-model-s",
 		"special": true
-	},
-	{
-		"title": "Hario V60 Drip Scale",
-		"price": 60,
-		"tags": [
-			"Kitchen"
-		],
-		"url": "https://www.hario-usa.com/products/v60-drip-scale"
 	},
 	{
 		"title": "Fellow Ode Coffee Grinder",
@@ -349,5 +331,25 @@ const things = [
 	],
 	"url": "https://www.tomford.com/snowdon-sunglasses/FT0237.html",
 	"description": "In SPECTRE Bond wears two pair of Tom Ford sunglasses, the Henry Vintage Wayfarer and the Snowdon."
+},
+{
+	"title": "Hario V60 Drip Scale",
+	"price": 60,
+	"tags": [
+		"Kitchen"
+	],
+	"url": "https://www.hario-usa.com/products/v60-drip-scale",
+	"purchased": true
+},
+{
+	"title": "Lululemon Take Form Yoga Mat",
+	"price": 118,
+	"tags": [
+		"Fitness",
+		"Accessories",
+		"Equipment"
+	],
+	"url": "https://shop.lululemon.com/p/yoga-mats/Take-Form-Yoga-Mat-5mm/_/prod10370187?color=47749&sz=ONESIZE",
+	"purchased": true
 },
 */
