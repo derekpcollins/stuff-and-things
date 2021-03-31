@@ -1,5 +1,22 @@
 const things = [
 	{
+		"title": "Dissolve Mug",
+		"price": 40,
+		"tags": [
+			"Kitchen",
+			"Accessories"
+		],
+		"url": "https://ryanputn.am/ceramics-shop/dissolve-mug-01"
+	},
+	{
+		"title": "Duck Rabbit Coffee",
+		"price": 19,
+		"tags": [
+			"Kitchen",
+		],
+		"url": "https://www.duckrabbitcoffee.com/shop/86p3uuukv2ydub5qdcq30ftdtt1kcs"
+	},
+	{
 		"title": "Matador Freerain 24 Backpack",
 		"price": 65,
 		"tags": [
@@ -67,16 +84,6 @@ const things = [
 		"url": "https://fellowproducts.com/products/stagg-double-wall-carafe"
 	},
 	{
-		"title": "KitchenAid Artisan Stand Mixer",
-		"price": 399,
-		"tags": [
-			"Kitchen"
-		],
-		"url": "https://www.kitchenaid.com/countertop-appliances/color-of-the-year/stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.ksm150psbm.html",
-		"special": true,
-		"purchased": true
-	},
-	{
 		"title": "Acacia Pearl Model S Scale",
 		"price": 195,
 		"tags": [
@@ -125,7 +132,7 @@ const things = [
 		"title": "Bell Bullitt Carbon Helmet",
 		"price": 630,
 		"tags": [
-			
+			"Accessories"
 		],
 		"url": "https://www.bellhelmets.com/motorcycle/p/bullitt-carbon-cruiser-motorcycle-helmet/250030000100000003.html",
 		"special": true
@@ -350,6 +357,16 @@ const things = [
 		"Equipment"
 	],
 	"url": "https://shop.lululemon.com/p/yoga-mats/Take-Form-Yoga-Mat-5mm/_/prod10370187?color=47749&sz=ONESIZE",
+	"purchased": true
+},
+{
+	"title": "KitchenAid Artisan Stand Mixer",
+	"price": 399,
+	"tags": [
+		"Kitchen"
+	],
+	"url": "https://www.kitchenaid.com/countertop-appliances/color-of-the-year/stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.ksm150psbm.html",
+	"special": true,
 	"purchased": true
 },
 */
