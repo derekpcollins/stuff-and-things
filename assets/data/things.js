@@ -14,7 +14,8 @@ const things = [
 		"tags": [
 			"Kitchen",
 		],
-		"url": "https://www.duckrabbitcoffee.com/shop/86p3uuukv2ydub5qdcq30ftdtt1kcs"
+		"url": "https://www.duckrabbitcoffee.com/shop/86p3uuukv2ydub5qdcq30ftdtt1kcs",
+		"recurring": true
 	},
 	{
 		"title": "Matador Freerain 24 Backpack",
@@ -42,7 +43,8 @@ const things = [
 			"Toys"
 		],
 		"url": "https://www.lego.com/en-us/product/nasa-space-shuttle-discovery-10283",
-		"special": true
+		"special": true,
+		"purchased": true
 	},
 	{
 		"title": "TSV 19\" Tesla Wheel",
@@ -125,6 +127,17 @@ const things = [
 			"Self Care"
 		],
 		"url": "https://www.kiehls.com/skincare/face-oils/midnight-recovery-concentrate-face-oil/819.html?dwvar_819_size=1.0%20fl.%20oz%20Bottle",
+		"favorite": true,
+		"recurring": true
+	},
+	{
+		"title": "Kiehls Daily Reviving Oil",
+		"price": 52,
+		"tags": [
+			"Bathroom",
+			"Self Care"
+		],
+		"url": "https://www.kiehls.com/skincare/face-oils/daily-reviving-concentrate-face-oil/KHL497.html?dwvar_KHL497_size=1.0%20fl.%20oz.",
 		"favorite": true,
 		"recurring": true
 	},
