@@ -233,30 +233,6 @@ const things = [
 		"special": true
 	},
 	{
-		"title": "The Essential Cocktail Book",
-		"price": 80,
-		"tags": [
-			"Books"
-		],
-		"url": "https://uncrate.com/the-essential-cocktail-book/"
-	},
-	{
-		"title": "Shaken",
-		"price": 25,
-		"tags": [
-			"Books"
-		],
-		"url": "https://uncrate.com/shaken-drinking-with-james-bond-ian-fleming/"
-	},
-	{
-		"title": "Viva Mezcal",
-		"price": 80,
-		"tags": [
-			"Books"
-		],
-		"url": "https://uncrate.com/viva-mezcal/"
-	},
-	{
 		"title": "Coravin Pivot",
 		"price": 99,
 		"tags": [
@@ -380,6 +356,32 @@ const things = [
 	],
 	"url": "https://www.kitchenaid.com/countertop-appliances/color-of-the-year/stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.ksm150psbm.html",
 	"special": true,
+	"purchased": true
+},
+{
+	"title": "The Essential Cocktail Book",
+	"price": 80,
+	"tags": [
+		"Books"
+	],
+	"url": "https://uncrate.com/the-essential-cocktail-book/"
+},
+{
+	"title": "Shaken",
+	"price": 25,
+	"tags": [
+		"Books"
+	],
+	"url": "https://uncrate.com/shaken-drinking-with-james-bond-ian-fleming/",
+	"purchased": true
+},
+{
+	"title": "Viva Mezcal",
+	"price": 80,
+	"tags": [
+		"Books"
+	],
+	"url": "https://uncrate.com/viva-mezcal/",
 	"purchased": true
 },
 */
