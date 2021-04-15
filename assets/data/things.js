@@ -1,5 +1,31 @@
 const things = [
 	{
+		"title": "Happier Camper HC1",
+		"price", 30000,
+		"tags": [],
+		"url": "https://happiercamper.com/pages/hc1-travel-trailer",
+		"special": true
+	},
+	{
+		"title": "IWC X Cafe Leather Driving Gloves",
+		"price": 240,
+		"tags": [
+			"Accessories",
+			"Clothing"
+		],
+		"url": "https://uncrate.com/iwc-x-cafe-leather-driving-gloves/",
+		"special": true
+	},
+	{
+		"title": "Wyze Floor Lamp",
+		"price": 30,
+		"tags": [
+			"Furniture"
+		],
+		"url": "https://wyze.com/wyze-floor-lamp.html",
+		"purchasdd": true
+	},
+	{
 		"title": "Bellroy Classic Backpack Plus",
 		"price": 180,
 		"tags": [
@@ -43,17 +69,6 @@ const things = [
 			"Accessories"
 		],
 		"url": "https://matadorup.com/products/flatpak-toiletry-bottle?variant=39249256775793&avad=248329_d20c66e1d"
-	},
-	{
-		"title": "Lego NASA Space Shuttle Discovery",
-		"price": 200,
-		"tags": [
-			"Collectibles",
-			"Toys"
-		],
-		"url": "https://www.lego.com/en-us/product/nasa-space-shuttle-discovery-10283",
-		"special": true,
-		"purchased": true
 	},
 	{
 		"title": "TSV 19\" Tesla Wheel",
@@ -391,6 +406,17 @@ const things = [
 		"Books"
 	],
 	"url": "https://uncrate.com/viva-mezcal/",
+	"purchased": true
+},
+{
+	"title": "Lego NASA Space Shuttle Discovery",
+	"price": 200,
+	"tags": [
+		"Collectibles",
+		"Toys"
+	],
+	"url": "https://www.lego.com/en-us/product/nasa-space-shuttle-discovery-10283",
+	"special": true,
 	"purchased": true
 },
 */
