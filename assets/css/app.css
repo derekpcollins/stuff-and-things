@@ -54,15 +54,13 @@ body::-webkit-scrollbar {
 /* CARD */
 .card {
 	background-color: var(--card-background-color);
-	border-bottom: 3px solid var(--border-color);
+	//border-bottom: 3px solid var(--border-color);
 	box-sizing: border-box;
-	display: block;
-	//margin-bottom: 4px;
-	width: 100%;
 	position: relative;
-	display; block;
 	overflow: hidden;
-	text-decoration: none;
+	margin: 8px 4px;
+	border-radius: 12px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.15);
 }
 
 .card img {
@@ -80,18 +78,18 @@ body::-webkit-scrollbar {
 .card header {
 	background-color: var(--card-background-color);
 	border-top: 1px solid rgba(0,0,0,.15);
-	padding: 8px 12px;
+	padding: 16px 12px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	box-sizing: border-box;
 	align-items: center;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .card h1 {
 	color: var(--text-color);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 	flex: 1;
 	margin: 0;
@@ -99,24 +97,16 @@ body::-webkit-scrollbar {
 
 .card .buy-button {
 	color: var(--button-text-color);
-	font-size: 14px;
 	font-weight: 500;
 	margin-left: 12px;
 	//border: 1px solid var(--text-color);
 	background-color: var(--button-background-color);
 	border-radius: 30px;
-	padding: 4px 12px 6px;
+	padding: 4px 14px 6px;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
-
-/*.card .price::after {
-	content: "";
-	display: inline;
-	height: 12px;
-	width: 12px;
-	background-image: url(../img/icons/arrow-up-right.svg);
-	background-size: 100%;
-}*/
 
 .card .favorite {
 	position: absolute;
