@@ -6,7 +6,7 @@
 	--text-color: #222;
 	--card-background-color: #fff;
 	--border-color: #ccc;
-	--button-background-color: #222;
+	--button-background-color: #0071e3;
 	--button-text-color: #fafafa;
 }
 
@@ -17,8 +17,8 @@
 		//--text-color: rgba(255,255,255,.65);
 		--card-background-color: #fafafa;
 		--border-color: #111;
-		--button-background-color: #fafafa;
-		--button-text-color: #222;
+		--button-background-color: #0071e3;
+		--button-text-color: #fafafa;
 	}
 }
 
@@ -26,7 +26,7 @@ body {
 	background: var(--background-color);
 	color: var(--text-color);
 	font-size: 100%;
-	font-family: 'Inter', sans-serif;
+	font-family: -apple-system, 'Inter', sans-serif;
 	margin: 0;
 	user-select: none;
 	padding-bottom: 48px;
@@ -85,27 +85,37 @@ body::-webkit-scrollbar {
 	width: 100%;
 	box-sizing: border-box;
 	align-items: center;
+	font-size: 14px;
 }
 
 .card h1 {
 	color: var(--text-color);
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 500;
 	flex: 1;
 	margin: 0;
 }
 
-.card .price {
+.card .buy-button {
 	color: var(--button-text-color);
 	font-size: 14px;
-	font-weight: 300;
-	margin-left: 16px;
+	font-weight: 500;
+	margin-left: 12px;
 	//border: 1px solid var(--text-color);
 	background-color: var(--button-background-color);
-	border-radius: 20px;
-	padding: 4px 12px;
+	border-radius: 30px;
+	padding: 4px 12px 6px;
 	text-decoration: none;
 }
+
+/*.card .price::after {
+	content: "";
+	display: inline;
+	height: 12px;
+	width: 12px;
+	background-image: url(../img/icons/arrow-up-right.svg);
+	background-size: 100%;
+}*/
 
 .card .favorite {
 	position: absolute;

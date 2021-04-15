@@ -19,9 +19,7 @@ const createCard = (data) => {
 	title.innerText = data.title;
 	cardHeader.appendChild(title);
 	
-	let price = document.createElement('a');
-	price.href = data.url;
-	price.target = "_blank"
+	let price = document.createElement('span');
 	price.classList.add('price');
 	if(Number.isInteger(data.price)) {
 		price.innerText = '$' + data.price.toLocaleString('en');
@@ -29,6 +27,14 @@ const createCard = (data) => {
 		price.innerText = data.price;
 	}
 	cardHeader.appendChild(price);
+	
+	let buyButton = document.createElement('a');
+	buyButton.href = data.url;
+	buyButton.target = "_blank";
+	buyButton.innerText	= 'Buy';
+	buyButton.classList.add('buy-button');
+	cardHeader.appendChild(buyButton);
+	
 	
 	if(data.favorite) {
 		let el = document.createElement('span');
