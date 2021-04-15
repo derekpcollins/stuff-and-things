@@ -7,7 +7,7 @@ const things = [
 		"special": true
 	},
 	{
-		"title": "IWC X Cafe Leather Driving Gloves",
+		"title": "IWC x Cafe Leather Driving Gloves",
 		"price": 240,
 		"tags": [
 			"Accessories",
