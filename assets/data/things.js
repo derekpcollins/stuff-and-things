@@ -1,7 +1,7 @@
 const things = [
 	{
 		"title": "Happier Camper HC1",
-		"price", 30000,
+		"price": 30000,
 		"tags": [],
 		"url": "https://happiercamper.com/pages/hc1-travel-trailer",
 		"special": true
