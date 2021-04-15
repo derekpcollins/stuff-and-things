@@ -79,7 +79,8 @@ body::-webkit-scrollbar {
 
 .card header {
 	background-color: var(--card-background-color);
-	padding: 8px;
+	border-top: 1px solid rgba(0,0,0,.15);
+	padding: 8px 12px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
