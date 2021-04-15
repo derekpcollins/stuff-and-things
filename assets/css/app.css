@@ -6,6 +6,8 @@
 	--text-color: #222;
 	--card-background-color: #fff;
 	--border-color: #ccc;
+	--button-background-color: #222;
+	--button-text-color: #fafafa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +17,8 @@
 		//--text-color: rgba(255,255,255,.65);
 		--card-background-color: #fafafa;
 		--border-color: #111;
+		--button-background-color: #fafafa;
+		--button-text-color: #222;
 	}
 }
 
@@ -34,7 +38,8 @@ body::-webkit-scrollbar {
 
 /* SITE HEADER */
 #site-header {
-	padding: 72px 16px 32px 16px;
+	//padding: 72px 16px 32px 16px;
+	padding: 56px 16px 24px;
 	text-align: center;
 }
 
@@ -91,11 +96,12 @@ body::-webkit-scrollbar {
 }
 
 .card .price {
-	color: var(--text-color);
+	color: var(--button-text-color);
 	font-size: 14px;
 	font-weight: 300;
 	margin-left: 16px;
-	border: 1px solid var(--text-color);
+	//border: 1px solid var(--text-color);
+	background-color: var(--button-background-color);
 	border-radius: 20px;
 	padding: 4px 12px;
 	text-decoration: none;
