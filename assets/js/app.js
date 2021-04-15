@@ -2,9 +2,7 @@ const container = document.getElementById('things-container');
 
 const createCard = (data) => {
 	
-	let card = document.createElement('a');
-	card.href = data.url;
-	card.target = "_blank"
+	let card = document.createElement('div');
 	card.classList.add('card');
 	
 	let imageName = (data.title).split(' ').join('-');
@@ -21,10 +19,12 @@ const createCard = (data) => {
 	title.innerText = data.title;
 	cardHeader.appendChild(title);
 	
-	let price = document.createElement('span');
+	let price = document.createElement('a');
+	price.href = data.url;
+	price.target = "_blank"
 	price.classList.add('price');
 	if(Number.isInteger(data.price)) {
-		price.innerText = '$' + data.price;
+		price.innerText = '$' + data.price.toLocaleString('en');
 	} else {
 		price.innerText = data.price;
 	}

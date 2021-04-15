@@ -93,6 +93,10 @@ body::-webkit-scrollbar {
 	font-size: 14px;
 	font-weight: 300;
 	margin-left: 16px;
+	border: 1px solid var(--text-color);
+	border-radius: 20px;
+	padding: 4px 12px;
+	text-decoration: none;
 }
 
 .card .favorite {
