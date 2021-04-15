@@ -61,6 +61,7 @@ body::-webkit-scrollbar {
 }
 
 .card img {
+	display: block;
 	height: auto;
 	width: 100%;
 }
@@ -78,6 +79,7 @@ body::-webkit-scrollbar {
 	flex-direction: row;
 	width: 100%;
 	box-sizing: border-box;
+	align-items: center;
 }
 
 .card h1 {
