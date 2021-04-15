@@ -23,7 +23,7 @@ const things = [
 			"Furniture"
 		],
 		"url": "https://wyze.com/wyze-floor-lamp.html",
-		"purchasdd": true
+		"purchased": true
 	},
 	{
 		"title": "Bellroy Classic Backpack Plus",
