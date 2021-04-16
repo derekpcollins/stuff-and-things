@@ -15,7 +15,8 @@
 		--background-color: #1a1a1a;
 		--header-text-color: #fafafa;
 		--text-color: #fafafa;
-		--card-background-color: #222;
+		//--card-background-color: #222;
+		--card-background-color: rgba(255,255,255,.08);
 		--border-color: rgba(255,255,255,.08);
 		--button-background-color: #0071e3;
 		--button-text-color: #fafafa;
@@ -66,7 +67,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-	.card {
+	.card img {
 		opacity: 0.75;
 	}
 }
