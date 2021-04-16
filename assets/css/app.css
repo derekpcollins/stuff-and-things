@@ -1,6 +1,7 @@
 :root {
 	color-scheme: light dark;
 	--background-color: #eee;
+	--background-image: url(./assets/img/background-light.jpg);
 	--header-text-color: #222;
 	//--text-color: rgba(0,0,0,.65);
 	--text-color: #222;
@@ -13,6 +14,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #1a1a1a;
+		--background-image: url(./assets/img/background-dark.jpg);
 		--header-text-color: #fafafa;
 		--text-color: #fafafa;
 		//--card-background-color: #222;
@@ -35,7 +37,7 @@ body {
 }
 
 #site-container {
-	background-image: url(../img/background.jpg);
+	background-image: var(--background-image);
 	background-size: fill;
 	background-repeat: no-repeat;
 	height: 100%;
