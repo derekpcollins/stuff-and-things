@@ -14,7 +14,7 @@
 	:root {
 		--background-color: #333;
 		--header-text-color: #fafafa;
-		--text-color: rgba(255,255,255,.65);
+		--text-color: #fafafa;
 		--card-background-color: #111;
 		--border-color: rgba(255,255,255,.08);
 		--button-background-color: #0071e3;
