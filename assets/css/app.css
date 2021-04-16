@@ -5,7 +5,8 @@
 	--header-text-color: #222;
 	//--text-color: rgba(0,0,0,.65);
 	--text-color: #222;
-	--card-background-color: #fff;
+	//--card-background-color: #fff;
+	--card-background-color: rgba(255,255,255,.08);
 	--border-color: rgba(0,0,0,.08);
 	--button-background-color: #0071e3;
 	--button-text-color: #fafafa;
@@ -77,7 +78,7 @@ body {
 	overflow: hidden;
 	margin: 8px;
 	border-radius: 12px;
-	box-shadow: 0 1px 4px rgba(0,0,0,.1);
+	box-shadow: 0 1px 4px rgba(0,0,0,.3);
 }
 
 .card img {
@@ -94,7 +95,7 @@ body {
 
 .card header {
 	background-color: var(--card-background-color);
-	border-top: 1px solid rgba(0,0,0,.08);
+	//border-top: 1px solid rgba(0,0,0,.08);
 	padding: 16px 12px;
 	display: flex;
 	flex-direction: row;
