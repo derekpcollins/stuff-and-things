@@ -9,7 +9,7 @@ const createCard = (data) => {
 	let image = document.createElement('img');
 	//image.classList.add('lazy');
 	image.setAttribute('loading', 'lazy');
-	image.src = 'assets/img/' + imageName + '.jpg';
+	image.src = 'assets/img/things/' + imageName + '.jpg';
 	card.appendChild(image);
 	
 	let cardHeader = document.createElement('header');
