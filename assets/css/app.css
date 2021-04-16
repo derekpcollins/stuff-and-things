@@ -12,10 +12,10 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background-color: #333;
+		--background-color: #1a1a1a;
 		--header-text-color: #fafafa;
 		--text-color: #fafafa;
-		--card-background-color: #111;
+		--card-background-color: #222;
 		--border-color: rgba(255,255,255,.08);
 		--button-background-color: #0071e3;
 		--button-text-color: #fafafa;
