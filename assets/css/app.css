@@ -38,7 +38,7 @@ body {
 
 #site-container {
 	background-image: var(--background-image);
-	background-size: fill;
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
