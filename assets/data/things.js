@@ -1,5 +1,32 @@
 const things = [
 	{
+		"title": "Akin Blip Gloves",
+		"price": 60,
+		"tags": [
+			"Accessories",
+			"Clothing"
+		],
+		"url": "https://akinmoto.com/products/blip-motorcycle-gloves?variant=7646315282487"
+	},
+	{
+		"title": "REAX Tasker Leather Gloves",
+		"price": 80,
+		"tags": [
+			"Accessories",
+			"Clothing"
+		],
+		"url": "https://www.revzilla.com/motorcycle/reax-tasker-leather-gloves"
+	},
+	{
+		"title": "REV'IT! Bastille Gloves",
+		"price": 100,
+		"tags": [
+			"Accessories",
+			"Clothing"
+		],
+		"url": "https://www.revzilla.com/motorcycle/revit-bastille-gloves"
+	},
+	{
 		"title": "Happier Camper HC1",
 		"price": 30000,
 		"tags": [],
