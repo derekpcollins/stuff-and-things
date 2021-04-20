@@ -6,7 +6,8 @@ const things = [
 			"Accessories",
 			"Clothing"
 		],
-		"url": "https://akinmoto.com/products/blip-motorcycle-gloves?variant=7646315282487"
+		"url": "https://akinmoto.com/products/blip-motorcycle-gloves?variant=7646315282487",
+		"notes": "Size Large (I measured 21-23cm)"
 	},
 	{
 		"title": "REAX Tasker Leather Gloves",
@@ -16,15 +17,6 @@ const things = [
 			"Clothing"
 		],
 		"url": "https://www.revzilla.com/motorcycle/reax-tasker-leather-gloves"
-	},
-	{
-		"title": "REV'IT! Bastille Gloves",
-		"price": 100,
-		"tags": [
-			"Accessories",
-			"Clothing"
-		],
-		"url": "https://www.revzilla.com/motorcycle/revit-bastille-gloves"
 	},
 	{
 		"title": "Happier Camper HC1",
@@ -445,5 +437,14 @@ const things = [
 	"url": "https://www.lego.com/en-us/product/nasa-space-shuttle-discovery-10283",
 	"special": true,
 	"purchased": true
+},
+{
+	"title": "REV'IT! Bastille Gloves",
+	"price": 100,
+	"tags": [
+		"Accessories",
+		"Clothing"
+	],
+	"url": "https://www.revzilla.com/motorcycle/revit-bastille-gloves"
 },
 */
