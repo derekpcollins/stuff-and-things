@@ -1,5 +1,73 @@
 const things = [
 	{
+		"title": "Crest Pro-Health Advanced Gum Restore Toothpaste",
+		"price": 7,
+		"tags": [
+			"Bathroom",
+			"Hygiene"
+		],
+		"url": "https://www.target.com/p/crest-pro-health-advanced-gum-restore-toothpaste-deep-clean-mint-3-7oz/-/A-80137830",
+		"notes": "I like the Deep Clean - Mint version",
+		"recurring": true,
+		"favorite": true
+	},
+	{
+		"title": "West Elm Organic Waffle Towels",
+		"price": 30,
+		"tags": [
+			"Bathroom"
+		],
+		"url": "https://www.westelm.com/products/organic-waffle-towels-b2782/?_br_psugg_q=waffle+towel",
+		"notes": "I really like the Frost Gray color -- I just wish it was a bath sheet instead of a regular sized towel. I'd also like to compare them to the Onsen towels."
+	},
+	{
+		"title": "Onsen Bath Robe",
+		"price": 195,
+		"tags": [
+			"Bathroom"
+		],
+		"url": "https://onsentowel.com/collections/all/products/bath-robe?variant=32682606231631",
+		"notes": "Cinder Grey, Large"
+	},
+	{
+		"title": "Onsen Bath Sheet Set",
+		"price": 105,
+		"tags": [
+			"Bathroom"
+		],
+		"url": "https://onsentowel.com/collections/all/products/bath-sheet-set?variant=53630476747",
+		"notes": "I like the Cinder Grey color, but the Ochre is really growing on me."
+	},
+	{
+		"title": "Satechi Type-C Extesnion Cable",
+		"price": 6,
+		"tags": [
+			"Travel",
+			"Work",
+			"Office"
+		],
+		"url": "https://satechi.net/products/type-c-extension-charging-cable?variant=32041011904600"
+	},
+	{
+		"title": "Satechi USB-C Magnetic Charging Dock",
+		"price": 40,
+		"tags": [
+			"Travel",
+			"Work"
+		],
+		"url": "https://satechi.net/products/usb-c-magnetic-charging-dock?variant=31972324769880"
+	},
+	{
+		"title": "Satechi Eco-leather Deskmate",
+		"price": 40,
+		"tags": [
+			"Office",
+			"Work"
+		],
+		"url": "https://satechi.net/products/eco-leather-deskmate?variant=20500238532696",
+		"notes": "Black"
+	},
+	{
 		"title": "Akin Blip Gloves",
 		"price": 60,
 		"tags": [
@@ -108,17 +176,6 @@ const things = [
 		"url": "https://shop.tesla.com/product/model-y-20_-induction-wheel-and-winter-tire-package",
 		"special": true,
 		"notes": "Waiting on the summer tire package"
-	},
-	{
-		"title": "Stadler Form Otto Fan",
-		"price": 200,
-		"tags": [
-			"Household",
-			"Furniture",
-			"Appliance"
-		],
-		"url": "https://www.stadlerform.com/en-ch/products/fan/otto/information/",
-		"notes": "In African Sapele Wood"
 	},
 	{
 		"title": "Stagg Double Wall Carafe",
@@ -328,7 +385,7 @@ const things = [
 	}
 ];
 
-/* REMOVED ITEMS */
+/* RETIRED ITEMS */
 /*
 {
 	"title": "Atoms Model 000",
@@ -446,5 +503,17 @@ const things = [
 		"Clothing"
 	],
 	"url": "https://www.revzilla.com/motorcycle/revit-bastille-gloves"
+},
+{
+	"title": "Stadler Form Otto Fan",
+	"price": 200,
+	"tags": [
+		"Household",
+		"Furniture",
+		"Appliance"
+	],
+	"url": "https://www.stadlerform.com/en-ch/products/fan/otto/information/",
+	"notes": "In African Sapele Wood",
+	"purchased": true
 },
 */
