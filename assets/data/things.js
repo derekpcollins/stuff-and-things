@@ -1,5 +1,15 @@
 const things = [
 	{
+		"title": "Bevel Trimmer",
+		"price": 220,
+		"tags": [
+			"Grooming",
+			"Bathroom",
+			"Hygiene"
+		],
+		"url": "https://getbevel.com/trimmer?featured=true&list=beard&v=black"
+	},
+	{
 		"title": "Crest Pro-Health Advanced Gum Restore Toothpaste",
 		"price": 7,
 		"tags": [
