@@ -383,15 +383,6 @@ const things = [
 		"special": true,
 		"url": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001004",
 		"description": "007 has worn a Seamaster since 1995. Limited to just 7,007 pieces, it is crafted with plenty of secret surprises."
-	},
-	{
-		"title": "Walther PPK",
-		"price": 800,
-		"tags": [
-			"Accessories"
-		],
-		"url": "https://waltherarms.com/ppk-2/",
-		"description": ".380 ACP"
 	}
 ];
 
@@ -526,4 +517,13 @@ const things = [
 	"notes": "In African Sapele Wood",
 	"purchased": true
 },
+{
+	"title": "Walther PPK",
+	"price": 800,
+	"tags": [
+		"Accessories"
+	],
+	"url": "https://waltherarms.com/ppk-2/",
+	"description": ".380 ACP"
+}
 */
